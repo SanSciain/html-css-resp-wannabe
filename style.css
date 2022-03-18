@@ -76,7 +76,12 @@ img {
 @media screen and (max-width: 419px) {
 
   html{
-    font-size: 2rem;
+    font-size: 1.5rem;
+  }
+
+  .container{
+    display: flex;
+    justify-content: center;
   }
 
   .row{
@@ -94,7 +99,12 @@ img {
 @media screen and (min-width:420px) and (max-width:719px) {
   
     html{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+  }
+
+  .container{
+    display: flex;
+    justify-content: center;
   }
 
   .row{
