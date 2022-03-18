@@ -12,6 +12,7 @@
   float: left;
 }
 
+
 #lezioni .row img {
   /* per centrare orizzontalmente */
   display: block;
@@ -70,4 +71,40 @@ img {
 
 .clear {
   clear: both;
+}
+
+@media screen and (max-width: 419px) {
+
+  html{
+    font-size: 2rem;
+  }
+
+  .row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f2f2cd;
+  }
+
+  #steps.container.grey .row{
+    background-color: transparent;
+  }
+}
+
+@media screen and (min-width:420px) and (max-width:719px) {
+  
+    html{
+    font-size: 1.5rem;
+  }
+
+  .row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #b0eb98;
+  }
+
+  #steps.container.grey .row{
+    background-color: transparent;
+  }
 }
