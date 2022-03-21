@@ -75,8 +75,21 @@ img {
 
 @media screen and (max-width: 419px) {
 
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
   html{
     font-size: 1.5rem;
+  }
+
+  img{
+    height: auto;
+    width: 40%;
+    min-width: 100px;
+    object-fit: contain;
   }
 
   .container{
@@ -86,49 +99,23 @@ img {
 
   .row{
     background-color: #f2f2cd;
+    width: 100%;
+    margin-top: 0;
+    padding: 10px 20px;
   }
 
   #steps.container.grey .row{
     background-color: transparent;
   }
 
-  #lezioni .row .left{
-    clear: both;
-    width: 100%;
-  }
-
-  #lezioni .row .right{
-    clear: both;
-    width: 100%;
-  }
-
-  #steps .row .left{
-    clear: both;
-    width: 100%;
-  }
-
-  #steps .row .right{
-    clear: both;
-    width: 100%;
-  }
-
-  #steps .row .central{
-    clear: both;
-    width: 100%;
-  }
-
-  #why .row .left{
-    clear: both;
-    width: 100%;
-  }
-
-  #why .row .right{
-    clear: both;
-    width: 100%;
-  }
-
+  #lezioni .row .left,
+  #lezioni .row .right,
+  #steps .row .left,
+  #steps .row .right,
+  #steps .row .central,
+  #why .row .left,
+  #why .row .right,
   #why .row .central{
-    clear: both;
     width: 100%;
   }
 
@@ -136,8 +123,20 @@ img {
 
 @media screen and (min-width:420px) and (max-width:719px) {
   
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
     html{
     font-size: 1.2rem;
+  }
+
+  img{
+    height: auto;
+    width: 30%;
+    object-fit: contain;
   }
 
   .container{
@@ -147,6 +146,9 @@ img {
 
   .row{
     background-color: #b0eb98;
+    width: 100%;
+    margin-top: 0;
+    padding: 10px 20px;
   }
 
   #steps.container.grey .row{
@@ -157,43 +159,15 @@ img {
     background-color: transparent;
   }
 
-  #lezioni .row .left{
-    clear: both;
-    width: 100%;
-  }
-
-  #lezioni .row .right{
-    clear: both;
-    width: 100%;
-  }
-
-  #steps .row .left{
-    clear: both;
-    width: 100%;
-  }
-
-  #steps .row .right{
-    clear: both;
-    width: 100%;
-  }
-
-  #steps .row .central{
-    clear: both;
-    width: 100%;
-  }
-
-  #why .row .left{
-    clear: both;
-    width: 100%;
-  }
-
-  #why .row .right{
-    clear: both;
-    width: 100%;
-  }
-
+  #lezioni .row .left,
+  #lezioni .row .right,
+  #steps .row .left,
+  #steps .row .right,
+  #steps .row .central,
+  #why .row .left,
+  #why .row .right,
   #why .row .central{
-    clear: both;
     width: 100%;
   }
+
 }
